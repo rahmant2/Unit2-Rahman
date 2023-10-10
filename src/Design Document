@@ -1,0 +1,72 @@
+Linear Equation Class:
+
+
+
+
+instance variables:
+private int x1 - x coordinate
+private int y1 - y coordinate
+private int x2 - x coordinate
+private int y2 - y coordinate
+
+
+
+
+Constructor:
+public LinearEquation(int x, int y){
+}
+construct an object using user input
+
+
+
+
+Methods:
+
+
+
+
+public double getYIntercept()
+Will calculate the y intercept using the x and y values inputted
+
+
+
+
+public double getSlope()
+Will calculate slope and return slope
+
+
+
+
+public double getDistance()
+Will use distance formula to calculate distance between two points
+
+
+
+
+public String getLinearEquation()
+will return linear equation of the two points
+
+
+public String getYForX()
+will return the coordinate of the x value inputted by user
+
+
+private String formatFraction()
+will format a double value as a string and will return that string
+
+
+public String toString()
+will display all the information about the equation
+
+
+
+
+Equation Runner:
+1 - ask for x1 y1 coord using scanners
+2 - ask for x2 y2 coord using scanners
+3 - use indexOf and substring methods in order to extract the x and y values out of the parentheses and will also use the trim() method in order to not include any parentheses or commas in the x or y value.
+4 - will use linearequation method to construct the two points
+5 - display information using toString() method
+6 - ask for  3rd x value and then use getYForX()
+7 - display new point
+
